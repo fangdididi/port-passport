@@ -1,0 +1,177 @@
+{
+  "project": "csvtidy",
+  "source": "Python 3.11 CLI on Ubuntu 24.04 x86_64",
+  "created": "2026-10-21T12:13:38Z",
+  "targets": {
+    "windows-x64": {
+      "desc": "Windows 11 23H2, x64, Python 3.11.9",
+      "build": "a1f3-r3",
+      "stamps": {
+        "builds": {
+          "build": "a1f3-r3",
+          "evidence": "re-checked on r3: same result as r2 for builds",
+          "where": null,
+          "device": "Win11 VM",
+          "at": "2026-10-21T12:13:38Z"
+        },
+        "launches": {
+          "build": "a1f3-r3",
+          "evidence": "re-checked on r3: same result as r2 for launches",
+          "where": null,
+          "device": "Win11 VM",
+          "at": "2026-10-21T12:13:38Z"
+        },
+        "first-light": {
+          "build": "a1f3-r3",
+          "evidence": "re-checked on r3: same result as r2 for first-light",
+          "where": null,
+          "device": "Win11 VM",
+          "at": "2026-10-21T12:13:38Z"
+        },
+        "interacts": {
+          "build": "a1f3-r3",
+          "evidence": "re-checked on r3: same result as r2 for interacts",
+          "where": null,
+          "device": "Win11 VM",
+          "at": "2026-10-21T12:13:38Z"
+        },
+        "round-trip": {
+          "build": "a1f3-r3",
+          "evidence": "config saved via csvtidy config set, new shell, csvtidy config get returned it",
+          "where": null,
+          "device": null,
+          "at": "2026-10-21T12:13:38Z"
+        },
+        "parity": {
+          "build": "a1f3-r3",
+          "evidence": "passport.py parity golden out/windows-x64 --eol: 3 match, 0 differ",
+          "where": "port/evidence/r3/parity.txt",
+          "device": "Win11 VM",
+          "at": "2026-10-21T12:13:38Z"
+        }
+      }
+    },
+    "macos-arm64": {
+      "desc": "macOS 15, Apple M2, Python 3.11.9",
+      "build": "a1f3-r3",
+      "stamps": {
+        "builds": {
+          "build": "a1f3-r3",
+          "evidence": "pip install . succeeded on M2, pure-Python wheel",
+          "where": null,
+          "device": null,
+          "at": "2026-10-21T12:13:38Z"
+        }
+      }
+    }
+  },
+  "log": [
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "target",
+      "target": "windows-x64",
+      "desc": "Windows 11 23H2, x64, Python 3.11.9"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "target",
+      "target": "macos-arm64",
+      "desc": "macOS 15, Apple M2, Python 3.11.9"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "build",
+      "target": "windows-x64",
+      "build": "a1f3-r2"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "builds",
+      "build": "a1f3-r2"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "launches",
+      "build": "a1f3-r2"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "first-light",
+      "build": "a1f3-r2"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "interacts",
+      "build": "a1f3-r2"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "build",
+      "target": "windows-x64",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "builds",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "launches",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "first-light",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "interacts",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "round-trip",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "windows-x64",
+      "rung": "parity",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "build",
+      "target": "macos-arm64",
+      "build": "a1f3-r3"
+    },
+    {
+      "at": "2026-10-21T12:13:38Z",
+      "event": "stamp",
+      "target": "macos-arm64",
+      "rung": "builds",
+      "build": "a1f3-r3"
+    }
+  ]
+}
